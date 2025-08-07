@@ -1,0 +1,72 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port led_16bits -pg 1 -lvl 7 -x 2110 -y 1030 -defaultsOSRD
+preplace port usb_uart -pg 1 -lvl 7 -x 2110 -y 1160 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -lvl 7 -x 2110 -y 880 -defaultsOSRD
+preplace port dip_switches_16bits -pg 1 -lvl 7 -x 2110 -y 740 -defaultsOSRD
+preplace port rgb_led -pg 1 -lvl 7 -x 2110 -y 290 -defaultsOSRD
+preplace port dual_seven_seg_led_disp -pg 1 -lvl 7 -x 2110 -y 580 -defaultsOSRD
+preplace port seven_seg_led_an -pg 1 -lvl 7 -x 2110 -y 440 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 660 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x 0 -y 740 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -x 1170 -y 410 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -x 1570 -y 410 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 2 -x 440 -y 510 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 110 -y 730 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 440 -y 680 -defaultsOSRD
+preplace inst axi_16leds_gpio -pg 1 -lvl 6 -x 1950 -y 1030 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -x 1570 -y 750 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 6 -x 1950 -y 1170 -defaultsOSRD
+preplace inst axi_buttons_gpio -pg 1 -lvl 6 -x 1950 -y 890 -defaultsOSRD
+preplace inst axi_swithes_gpio -pg 1 -lvl 6 -x 1950 -y 750 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 3 -x 770 -y 370 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -x 440 -y 110 -defaultsOSRD
+preplace inst axi_rgbleds_gpio -pg 1 -lvl 6 -x 1950 -y 300 -defaultsOSRD
+preplace inst axi_7segs_gpio -pg 1 -lvl 6 -x 1950 -y 580 -defaultsOSRD
+preplace inst axi_7segsAN_gpio -pg 1 -lvl 6 -x 1950 -y 440 -defaultsOSRD
+preplace inst axi_timer_0 -pg 1 -lvl 2 -x 440 -y 290 -defaultsOSRD
+preplace netloc microblaze_0_Clk 1 1 5 200 420 630 460 890 320 1410 310 1810
+preplace netloc clk_wiz_1_locked 1 1 1 210 720n
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 2 2 650 470 910
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 3 N 660 900 510 1430J
+preplace netloc mdm_1_debug_sys_rst 1 1 2 270 580 610
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 5 270 410 640J 500 N 500 1420 320 1760
+preplace netloc reset_1 1 0 2 20 660 NJ
+preplace netloc sys_clock_1 1 0 1 NJ 740
+preplace netloc axi_gpio_2_ip2intc_irpt 1 1 6 230 1040 N 1040 N 1040 NJ 1040 1820J 670 2080
+preplace netloc axi_gpio_1_ip2intc_irpt 1 1 6 220 1030 N 1030 N 1030 NJ 1030 1730J 660 2090
+preplace netloc axi_timer_0_interrupt 1 1 2 260 400 610
+preplace netloc axi_timer_0_pwm0 1 1 2 240 10 610
+preplace netloc xlconcat_0_dout 1 2 1 620 110n
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 N 730
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1790 710n
+preplace netloc axi_gpio_1_GPIO 1 6 1 NJ 880
+preplace netloc axi_intc_0_interrupt 1 3 1 910 370n
+preplace netloc microblaze_0_ilmb_1 1 4 1 1430 400n
+preplace netloc microblaze_0_M_AXI_DP 1 4 1 1400 430n
+preplace netloc axi_gpio_0_GPIO 1 6 1 NJ 1030
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 1 1800 670n
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 1750 690n
+preplace netloc axi_uartlite_0_UART 1 6 1 NJ 1160
+preplace netloc microblaze_0_debug 1 2 2 620 490 900
+preplace netloc microblaze_0_dlmb_1 1 4 1 1400 380n
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 2 4 640 280 NJ 280 NJ 280 1710
+preplace netloc axi_gpio_2_GPIO 1 6 1 NJ 740
+preplace netloc axi_gpio_3_GPIO 1 6 1 NJ 290
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 5 1 1740 280n
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 5 1 1780 560n
+preplace netloc axi_gpio_4_GPIO 1 6 1 NJ 580
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 5 1 1770 420n
+preplace netloc axi_gpio_5_GPIO 1 6 1 NJ 440
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 1 5 250 20 N 20 N 20 NJ 20 1720
+levelinfo -pg 1 0 110 440 770 1170 1570 1950 2110
+pagesize -pg 1 -db -bbox -sgen -110 0 2320 1250
+"
+}
+{
+   "da_axi4_cnt":"10",
+   "da_board_cnt":"19",
+   "da_mb_cnt":"1"
+}

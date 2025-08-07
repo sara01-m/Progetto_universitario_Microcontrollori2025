@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Oct 26 17:40:10 2022
+# Process ID: 21616
+# Current directory: C:/vivado_projects/project_nexys/project_nexys.runs/design_1_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log design_1_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ilmb_v10_0.tcl
+# Log file: C:/vivado_projects/project_nexys/project_nexys.runs/design_1_ilmb_v10_0_synth_1/design_1_ilmb_v10_0.vds
+# Journal file: C:/vivado_projects/project_nexys/project_nexys.runs/design_1_ilmb_v10_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ilmb_v10_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_ilmb_v10_0, cache-ID = 6632c357ba643891.
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 26 17:40:22 2022...
